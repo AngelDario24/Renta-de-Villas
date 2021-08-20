@@ -1,0 +1,298 @@
+* { /*  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo de La pagina Registro */
+.Registro{
+  background: #24303c;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  font-family: "Calibri";
+  color: white;
+}
+
+.Registro h4{
+  font-size: 20px;  
+  font-family: "Calibri";
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.Controles{
+  background: #ffffff ;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+  font-family: "Calibri";
+  color: black ;
+}
+
+.Registro p{
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.Registro a{
+  color: white;
+}
+
+.Botones{
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0px 3px 10px #000000;
+  margin-left: 70px;
+  border-radius: 4px;
+}
+
+.Botones a{
+  color: black;
+}
+
+
+/* Estilo de la Pagina Sesion */
+.Sesion{
+  background: #24303c;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 170px;
+  border-radius: 5px;
+  font-family: "Calibri";
+  color: white;
+}
+
+.Sesion h4{
+  font-size: 20px;  
+  font-family: "Calibri";
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.Controles2{
+  background: #ffffff ;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+  font-family: "Calibri";
+  color: black ;
+}
+
+.Boton2{
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0px 3px 10px #000000;
+  margin-left: 70px;
+  border-radius: 4px;
+}
+
+.Boton2 a{
+  color: black;
+}
+
+/* Estilo de Pagina Index */
+
+.Navegacion{
+  width: 100%;
+  background-color: #E9E9E9;
+  box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.logo:hover{
+  background-color: #B6B6B6;
+}
+
+.logo a{
+  color: black;
+}
+
+.logo{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.b1 a{
+  color: black;
+}
+
+.b1{
+  margin-left: 20px;
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Navegacion2{
+  width: 100%;
+  background-color: #E9E9E9;
+  box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.b2 a{
+  color: black;
+}
+
+.b2{
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 15px;
+  font-family: calibri;
+}
+/* Estilo de Muestra de Villas */
+
+.Muestras{
+  background: #DCDCDC;
+  width: 1300px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.Muestras h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Estilos del carrusel */
+
+.carousel {
+  height: 500px;  
+}
+
+.carousel .carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  width: 500px;
+  height: 300px;
+}
+.carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+/*Estilos de Renta*/
+.Renta{
+  background: #FFFFFF;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.Renta h4{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+
+}
+
+.Forma{
+  margin-left: 20px;
+  height: 30px;
+  width: 300px;
+}
+
+.Fecha{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.Tiempo{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+/*boton 3*/
+.Boton3{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0px 3px 10px #000000;
+  border-radius: 4px;
+}
+
+.Boton3 a{
+color: black;
+}
+
+.final{
+  margin-left: 30px;
+  text-align: justify;
+  font-size: 30px;
+  background: #ffffff;
+  width: 1200px;
+  margin: auto;
+}
+
+.final p{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.Boton4{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  margin-top: 50px;
+  margin-left:550px;
+  box-shadow: 0px 3px 10px #000000;
+  border-radius: 4px;
+}
+
+.Boton4 a{
+color: black;
+}

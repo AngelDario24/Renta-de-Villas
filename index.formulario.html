@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="utf-8">
+		<meta name="Autores" content="Angel Santana y Yonathan Green">
+		<meta name="Descripcion" content="formulario">
+		<meta name="Keyword" content="Soporte,Formulario,Ayuda">
+		<!--Estilos de CSS-->
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<title>soporte</title>
+		<style>
+			body{
+				background: url(img/fondo.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="Navegacion2">
+			<ul class="Lista">
+				<li class="b2"> <a href="index.html"> Inicio </a></li>
+				<li class="b2"> <a href="Registro.html"> Registarse </a></li>
+				<li class="b2"> <a href="Sesion.html"> Inicio de Sesion </a></li>
+				<li class="b2"> <a href="Calendario.html"> Calendario De Villas </a></li>
+				<li class="b2"> <a href="Muestras.html"> Muestra de Villas </a></li>
+				<li class="b2"> <a href="index.formulario.html"> Soporte </a></li>
+			</ul>
+		</nav>
+
+	<center> 
+		<div id="after_submit"></div>
+			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+				<br>
+
+  				<div class="row">
+    				<label class="required" for="nombre">Tu Nombre:</label><br />
+    				<input id="nombre" class="input" name="nombre" type="text" value="" size="40" /><br />
+    				<span id="nombre_validation" class="mensaje_error"></span><br>
+  				</div>
+
+  				<div class="row">
+    				<label class="required" for="email">Tu email:</label><br />
+    				<input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+    				<span id="email_validation" class="mensaje_error"></span><br>
+ 				</div>
+
+ 				<div class="row">
+    				<label class="required" for="email">tu contraseña:</label><br />
+    				<input id="password" class="input" name="password" type="text" value="" size="40" /><br />
+    				<span id="password_validation" class="mensaje_error"></span><br>
+ 				</div>
+
+ 				<div class="row">
+   					<label class="required" for="message">Tu Mensaje:</label><br />
+  	 				<textarea id="Mensaje" class="input" name="message" rows="10" cols="70"></textarea><br />
+  				 	<span id="mensaje_validation" class="mensaje_error"></span>
+  				</div>
+  				<section class="Boton2" style="margin: auto; margin-top: 10px;">
+   					<a href="index.html"> enviar</a>
+   				<section>
+			</form>
+		</div>
+	<center>
+	</body>
+</html>
